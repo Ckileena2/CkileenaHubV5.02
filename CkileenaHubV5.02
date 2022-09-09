@@ -1,0 +1,81 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ckileena Hub", "Sentinel")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    
+    MainSection:NewButton("ZoSorry", "Script For Zo", function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FIREBLADE+X2-ZO-SAMURAI-Sorry-4341"))()
+    end)
+    
+    
+    MainSection:NewButton("DOORS Vynixius", "Script For DOORS", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end)
+    
+    
+    MainSection:NewButton("Arsenal", "Script For Arsenal", function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Arsenal", true))()
+
+    end)
+
+
+    MainSection:NewButton("Bad Business", "Script For Bad Business", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end)
+
+
+    MainSection:NewButton("Blox Fruits", "Script For Blox Fruits", function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FIREBLADE+X2-ZO-SAMURAI-Sorry-4341"))()
+    end)
+    
+    
+    MainSection:NewButton("Skate Park", "Script For Skate Park", function()
+        game:GetService("ReplicatedStorage").lib.Network.RemoveRide:InvokeServer()
+    end)
+    
+    
+    MainSection:NewButton("Mining Simulator 2", "Script For Mining Simulator 2", function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
+    end)
+
+
+    MainSection:NewButton("Infectious Smile", "Script For Infectious Smile", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
+    end)
+
+
+    MainSection:NewButton("Karate Kick Simulator", "Script For Karate Kick Simulator", function()
+        game.ReplicatedStorage.REvents.GainMoney:FireServer(9e99, game.Players.LocalPlayer.Character)
+    end)
+
+
+    MainSection:NewButton("Grand Piece Online", "Script For Grand Piece Online", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()
+    end)
+
+
+    MainSection:NewButton("Pet Simulator X !", "Script For Pet Simulator X !", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+    end)
+
+
+    MainSection:NewButton("Freeze Tag Extreme", "Script For Freeze Tag Extreme", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v2.5/main/F%26Tv2.5.lua"))()
+    end)
+    
+    
+    MainSection:NewButton("Combat Warriors", "Script For Combat Warriors", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+    end)
+    
+    
+    MainSection:NewButton("MM2 Jailbreak + More (PAID)", "Script For Multiple Games", function()
+        getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+    end)
+   
+   
+    MainSection:NewButton("Jailbreak (FREE)", "Script For Jailbreak", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeHub/main/Loader.lua"))()
+    end)
